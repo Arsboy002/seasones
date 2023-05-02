@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spring</title>
+    <style>
+        body{
+            background-image: url(mark-tegethoff-NMLv5HQZnK4-unsplash.jpg);
+            height: 100vh;
+            background-size: cover;
+            background-position-y: -200px;
+        }
+        h1{
+            font-size: 65px;
+            color: deeppink;
+            font-family: Pacifico;
+            text-shadow: 7px 7px 7px rgb(204, 111, 162);
+        }
+        @font-face {
+            font-family: Pacifico;
+            src: url(Pacifico-Regular.ttf);
+        }
+        p{
+            background-color: rgba(205, 92, 92, 0.432);
+            width: fit-content;
+            padding: 15px;
+            font-size: 20px;
+            border-radius: 25px;
+            line-height: 1.5;
+        }
+        table{
+            border: 10px groove rgb(214, 82, 126);
+            border-radius: 20px;
+            padding: 15px;
+        }
+        td{
+            border: 5px solid rgb(214, 82, 126);
+            padding: 5px;
+        }
+        caption{
+            font-size: 20px;
+            color: rgb(94, 48, 63);
+        }
+        video{
+            position: absolute;
+            width: 50vw;
+            top: 10px;
+            left: 17vw;
+            height: 50vh;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+        ul{
+            background-color:  rgba(205, 92, 92, 0.432);
+            width: fit-content;
+            border-radius: 15px;
+            position: absolute;
+            top: 55vh;
+            left: 20vw;
+            padding: 30px;
+            font-size: 20px;
+        }
+        #boat{
+            position: absolute;
+            top: 650px; ;
+            left: 25vw;
+            transform: rotateY(35deg);
+            animation: floating 7s infinite;
+        }
+        @keyframes floating{
+            from{
+                transform: translateX(0) rotateY(0);
+            }
+            25%{
+                transform: translateX(35vw) rotateY(95deg);
+            }
+            50%{
+                transform: translateY(-7vw) rotateY(180deg) scale(0.5);
+            }
+            to{
+                transform: translateX(0) rotate(0);
+            }
+        } 
+    </style>
+</head>
+<body>
+    <h1>Весна</h1>
+    <table>
+        <caption>Календарь Весны</caption>
+        <tr>
+            <td>Март</td>
+            <td>31 день</td>
+        </tr>
+        <tr>
+            <td>Апрель</td>
+            <td>30 дней</td>
+        </tr>
+        <tr>
+            <td>Май</td>
+            <td>31 день</td>
+        </tr>
+        
+    </table>
+    <p>
+        ПРИХОД ВЕСНЫ<br>
+Зелень нивы, рощи лепет,<br>
+В небе жаворонка трепет,<br>
+Теплый дождь, сверканье вод,-<br>
+Вас назвавши, что прибавить?<br>
+Чем иным тебя прославить,<br>
+Жизнь души, весны приход?<br>
+Андрей Белый
+
+    </p>
+    <video src="-66823.mp4"controls></video>
+    <ul>
+        <li>Цветение</li>
+        <li>Тепло</li>
+        <li>Открытие Мото Сезона</li>
+        <li>Таяние снега</li>
+    </ul>
+    <img src="sailboat_boat_sail_travel_ship_transportation_icon_175628.png"id="boat" alt="">
+</body>
+</html>

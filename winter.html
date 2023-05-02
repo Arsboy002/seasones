@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winter</title>
+    <style>
+        @font-face {
+            font-family: Pacifico;
+            src: url(Pacifico-Regular.ttf);
+        }
+        body{
+            background-image: url(shawn-dearn-sgY1DaqB8AU-unsplash.jpg);
+            height: 100vh;
+            background-size: cover;
+            margin: 0;
+        }
+        h1{
+            color: aquamarine;
+            font-family: Pacifico;
+            text-align: center;
+            font-size: 65px;
+            text-shadow: 5px 5px 5px rgba(199, 192, 192, 0.87);
+        }
+        p{
+            background-color: rgba(100, 148, 237, 0.562);
+            color: azure;
+            padding: 20px;
+            width: fit-content;
+            margin-left: 45vw;
+            border-radius: 20px;
+        }
+        ul{
+            background-color: rgba(100, 148, 237, 0.562);
+            color: rgb(9, 71, 40);
+            padding: 20px;
+            width: fit-content;
+            margin-left: 45vw;
+            border-radius: 20px;
+        }
+        table{
+            padding: 20px;
+            border: 15px groove rgb(69, 164, 241);
+            border-radius: 25px;
+            background-color: rgba(100, 148, 237, 0.562); 
+            margin-top: -75vh;
+        }
+        td{
+            padding: 15px;
+            border: 5px solid rgb(43, 101, 148);
+        }
+        video{
+            width: 40vw;
+            
+        }
+        #тучка1{
+            position: absolute;
+            top: 10px;
+            left: 30vw;
+            animation: run 7s infinite;
+        }
+        #тучка2{
+            position: absolute;
+            top: 10px;
+            left: 60vw;
+            animation: run 7s infinite
+        }
+        @keyframes run{
+            from{
+                transform: translateX(0);
+            }
+            40%{
+                transform: translateX(-30vw);
+            }
+            70%{
+                transform: translateX(30vw);
+            }
+            to{
+                transform: translateX(0);
+            }
+        }
+        #снежинка1{
+            position: absolute;
+            top:10px ;
+            left:10vw ;
+            animation:snowfaling 7s infinite;
+        }
+        #снежинка2{
+            position: absolute;
+            top:10px ;
+            left:30vw ;
+            animation:snowfaling 7s infinite;
+        }
+        #снежинка3{
+            position: absolute;
+            top:10px ;
+            left:50vw ;
+            animation:snowfaling 7s infinite;
+        }
+        #снежинка4{
+            position: absolute;
+            top:10px ;
+            left:70vw ;
+            animation:snowfaling 7s infinite;
+        }
+        #снежинка5{
+            position: absolute;
+            top:10px ;
+            left:90vw ;
+            animation:snowfaling 7s infinite;
+        }
+        @keyframes snowfaling{
+            from{transform: translateY(0);opacity: 1;}
+            to{transform: translateY(130vh);opacity: 0;}
+        }
+    </style>
+</head>
+<body>
+    <h1>Зима</h1>
+    <p>
+        Зимний сон<br>
+Мне ночью снились горы…<br>
+Высокая гора,<br>
+Та самая, с которой<br>
+Катались мы вчера.<br>
+Мы до деревни ближней<br>
+Неслись по целине,<br>
+И ночью снег и лыжни,<br>
+Блестящий снег и лыжни<br>
+Всё время снились мне.<br>
+Агния Барто
+    </p>
+    <ul>
+        <li>Снег</li>
+        <li>Лёд</li>
+        <li>Новый год</li>
+        <li>Мороз</li>
+        <li>Катание на лыжах</li>
+    </ul>
+    <table>
+        <caption style="color: aquamarine;">Календарь Зима</caption>
+        <tr>
+            <td>Декабрь</td>
+            <td>31 день</td>
+            </tr>
+            <tr>
+            <td>Январь</td>
+            <td>30 дней</td>
+            </tr>
+            <tr>
+            <td>Февраль</td>
+            <td>31 день</td>
+        </tr>
+    </table>
+    <video src="_import_631ebe1b7493a8.14779248.mp4"controls></video>
+    <img src="iconfinder-weather-weather-forecast-flake-cloud-climate-3859133_121218.png"id="тучка1" alt="">
+    <img src="iconfinder-weather-weather-forecast-flake-cloud-climate-3859133_121218.png"id="тучка2" alt="">
+    <img src="Snow_flake_icon-icons.com_75204.png"id=снежинка1 alt="">
+    <img src="Snow_flake_icon-icons.com_75204.png"id=снежинка2 alt="">
+    <img src="Snow_flake_icon-icons.com_75204.png"id=снежинка3 alt="">
+    <img src="Snow_flake_icon-icons.com_75204.png"id=снежинка4 alt="">
+    <img src="Snow_flake_icon-icons.com_75204.png"id=снежинка5 alt="">
+</body>
+</html>
